@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <contextName>Logback For demo Mobile</contextName>
+    <!-- 设置日志存放地址-->
+    <!-- 单环境设置-->
+    <property name="LOG_HOME"  value="/yunzhang/log" />
+    <!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符 -->
+    <property name="FORMAT" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{25} - %msg%n" />
+    <property name="RollingFileNamePattern" value="${LOG_HOME}/%d{yyyy-MM-dd}.%i.log" />
+    <property name="RollingMaxHistory" value="10" />
+    <!--  多环境设置-->
+    <!-- 如果要设置多环境的配置，还需要再给每个环境设置对应的配置文件application-dev.properties-->
+    <!--
+      <springProfile name="linux">
+          <property name="LOG_HOME"  value="/home/logger/mobile_log"/>
+      </springProfile>
+      <springProfile name="dev">
+          <property name="LOG_HOME"  value="D:/logger/log4j"/>
+      </springProfile>
+      <springProfile name="test">
+          <property name="LOG_HOME"  value="D:/logger/test"/>
+      </springProfile>
+      <springProfile name="prod">
+          <property name="LOG_HOME"  value="D:/logger/mobile_log"/>
+      </springProfile>
+  -->
+    <!--控制台 输出格式-->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <param name="encoding" value="UTF-8" />
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>${FORMAT}</pattern>
+        </encoder>
+    </appender>
+    <!--按照每天生成日志文件-->
+    <appender name="ROLLING_FILE"  class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!--日志文件输出的文件名-->
+            <FileNamePattern>${RollingFileNamePattern}</FileNamePattern>
+            <!--日志文件最大的大小-->
+            <maxFileSize>20MB</maxFileSize>
+            <!--日志文件保留天数-->
+            <MaxHistory>${RollingMaxHistory}</MaxHistory>
+        </rollingPolicy>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符-->
+            <pattern>${FORMAT}</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 运用的场景，只要com.demo.service的debug输出，定义name="com.demo.service",  level="DEBUG" -->
+    <logger name="com.demo.service" level="DEBUG">
+        <appender-ref ref = "ROLLING_FILE"/>
+    </logger>
+
+    <!--全局应用该日志配置-->
+    <root level="INFO">
+        <appender-ref ref = "STDOUT"/>
+        <appender-ref ref = "ROLLING_FILE"/>
+    </root>
+
+</configuration>
