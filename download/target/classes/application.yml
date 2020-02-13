@@ -3,3 +3,7 @@ server:
 spring:
   application:
     name: yunzhang-download #指定服务名
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp

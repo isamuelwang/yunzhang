@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e3c311f-56b9-4c7c-8ce0-6aee518eaae4" name="Default Changelist" comment="" />
+    <list default="true" id="5e3c311f-56b9-4c7c-8ce0-6aee518eaae4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/download_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/src/main/java/com/owwang/yunzhang/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/src/main/java/com/owwang/yunzhang/controller/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/src/main/resources/META-INF/resources/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/src/main/resources/META-INF/resources/WEB-INF/jsp/indexnew.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/download/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/src/main/resources/Logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/download/src/main/resources/Logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/download/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/target/classes/Logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/download/target/classes/Logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/download/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,8 +27,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -34,35 +54,48 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="1XhO4qPrLjQtM0aV62vzJjWmYCx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/download/src/main/java/com/owwang/yunzhang/service" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Dockerfile" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\develop\01_workspace\yunzhang\download\src\main\resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\develop\01_workspace\yunzhang\download\src\main\java\com\owwang\yunzhang\service" />
       <recent name="F:\develop\01_workspace\yunzhang\download\src\main\java\com\owwang\yunzhang\qiniuyun" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.owwang.yunzhang.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\develop\01_workspace\yunzhang\download\src\main\resources\META-INF\resources\WEB-INF\jsp" />
+      <recent name="F:\develop\01_workspace\yunzhang\download\src\main\webapp\WEB-INF\jsp" />
+      <recent name="F:\develop\01_workspace\yunzhang\download\src\main\webapp\WEB-INF" />
+      <recent name="F:\develop\01_workspace\yunzhang\download\src\main" />
+      <recent name="F:\develop\01_workspace\yunzhang\download\src\main\resources\webapp" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DownloadApplication">
+  <component name="RunManager" selected="Docker.Unnamed">
     <configuration name="DownloadPicUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.owwang.yunzhang.service.DownloadPicUtil" />
       <module name="download" />
@@ -128,6 +161,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="samuel/yunzhang:1.0" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8085" />
+                <option name="hostPort" value="8085" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.DownloadPicUtil" />
+      <item itemvalue="Application.DownloadService" />
+      <item itemvalue="Application.FaultDownLoadService" />
+      <item itemvalue="Application.LogTest" />
+      <item itemvalue="Docker.Unnamed" />
+      <item itemvalue="Spring Boot.DownloadApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.DownloadApplication" />
@@ -162,22 +225,43 @@
       <updated>1581494671574</updated>
       <workItem from="1581494675069" duration="2211000" />
       <workItem from="1581520546462" duration="1777000" />
-      <workItem from="1581522914869" duration="22996000" />
+      <workItem from="1581522914869" duration="23366000" />
+      <workItem from="1581606260694" duration="16911000" />
+      <workItem from="1581625568526" duration="7466000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="627" y="218" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1581528025767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="218" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581528025767" />
+    <state x="414" y="168" width="1111" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581626918636">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="168" width="1111" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581626918636" />
+    <state x="661" y="305" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581616470364">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="305" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581616470364" />
     <state x="721" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1581545177476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="721" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581545177476" />
+    <state x="671" y="410" width="522" height="177" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1581607503069">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="671" y="410" width="522" height="177" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1920.1040@0.0.1920.1040" timestamp="1581607503069" />
+    <state x="732" y="410" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1581608892617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="732" y="410" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581608892617" />
     <state x="708" y="354" width="507" height="344" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581531414630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -186,45 +270,61 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="659" y="188" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581531722724" />
-    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1581520518949">
+    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1581626833979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581520518949" />
-    <state width="1867" height="269" key="GridCell.Tab.0.bottom" timestamp="1581547615356">
+    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581626833979" />
+    <state width="1867" height="255" key="GridCell.Tab.0.bottom" timestamp="1581627364946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581547615356" />
-    <state width="1867" height="269" key="GridCell.Tab.0.center" timestamp="1581547615356">
+    <state width="1867" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581627364946" />
+    <state width="1867" height="255" key="GridCell.Tab.0.center" timestamp="1581627364946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="269" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581547615356" />
-    <state width="1867" height="269" key="GridCell.Tab.0.left" timestamp="1581547615356">
+    <state width="1867" height="255" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581627364946" />
+    <state width="1867" height="255" key="GridCell.Tab.0.left" timestamp="1581627364945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="269" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581547615356" />
-    <state width="1867" height="269" key="GridCell.Tab.0.right" timestamp="1581547615356">
+    <state width="1867" height="255" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581627364945" />
+    <state width="1867" height="255" key="GridCell.Tab.0.right" timestamp="1581627364946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="269" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581547615356" />
-    <state width="1867" height="269" key="GridCell.Tab.1.bottom" timestamp="1581547615356">
+    <state width="1867" height="255" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581627364946" />
+    <state width="1867" height="255" key="GridCell.Tab.1.bottom" timestamp="1581627364946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="269" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581547615356" />
-    <state width="1867" height="269" key="GridCell.Tab.1.center" timestamp="1581547615356">
+    <state width="1867" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581627364946" />
+    <state width="1867" height="255" key="GridCell.Tab.1.center" timestamp="1581627364946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="269" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581547615356" />
-    <state width="1867" height="269" key="GridCell.Tab.1.left" timestamp="1581547615356">
+    <state width="1867" height="255" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581627364946" />
+    <state width="1867" height="255" key="GridCell.Tab.1.left" timestamp="1581627364946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="269" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581547615356" />
-    <state width="1867" height="269" key="GridCell.Tab.1.right" timestamp="1581547615356">
+    <state width="1867" height="255" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581627364946" />
+    <state width="1867" height="255" key="GridCell.Tab.1.right" timestamp="1581627364946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="269" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581547615356" />
-    <state x="161" y="148" key="new project wizard" timestamp="1581494730530">
+    <state width="1867" height="255" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581627364946" />
+    <state x="312" y="0" key="SettingsEditor" timestamp="1581633288406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="161" y="148" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1581494730530" />
+    <state x="312" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581633288406" />
+    <state x="651" y="201" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1581626913401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="651" y="201" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize/0.0.1920.1040@0.0.1920.1040" timestamp="1581626913401" />
+    <state x="719" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581606295524">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="719" y="417" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581606295524" />
+    <state x="161" y="148" key="new project wizard" timestamp="1581607263300">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="161" y="148" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1581607263300" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1581622123340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581622123340" />
   </component>
 </project>
