@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e3c311f-56b9-4c7c-8ce0-6aee518eaae4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/download_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/download/src/main/java/com/owwang/yunzhang/controller/BaseExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/download/src/main/java/com/owwang/yunzhang/controller/PageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/download/src/main/resources/META-INF/resources/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/download/src/main/resources/META-INF/resources/WEB-INF/jsp/indexnew.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/download/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/src/main/resources/Logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/download/src/main/resources/Logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/download/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/target/classes/Logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/download/target/classes/Logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/download/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +213,7 @@
       <workItem from="1581520546462" duration="1777000" />
       <workItem from="1581522914869" duration="23366000" />
       <workItem from="1581606260694" duration="16911000" />
-      <workItem from="1581625568526" duration="7466000" />
+      <workItem from="1581625568526" duration="7729000" />
     </task>
     <servers />
   </component>
