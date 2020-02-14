@@ -19,7 +19,7 @@ public class PrintToPdfUtil {
      * @param imageFolderPath 图片文件夹地址
      * @param pdfPath         PDF文件保存地址
      */
-    public static void toPdf(String imageFolderPath, String pdfPath) {
+    public static void toPdf(String imageFolderPath, String pdfPath,int pageTotal) {
         try {
             // 图片文件夹地址
             // String imageFolderPath = "D:/Demo/ceshi/";
@@ -38,11 +38,10 @@ public class PrintToPdfUtil {
             BufferedImage img = null;
             // 实例化图片
             Image image = null;
-            // 获取图片文件夹对象
-            File file = new File(imageFolderPath);
-            File[] files = file.listFiles();
             // 循环获取图片文件夹内的图片
-            for (File file1 : files) {
+            for (int i=101;i<=pageTotal+100;i++) {
+                System.out.println(imageFolderPath+i+".jpg");
+                File file1 = new File(imageFolderPath+i+".jpg");
                 if (file1.getName().endsWith(".png")
                         || file1.getName().endsWith(".jpg")
                         || file1.getName().endsWith(".gif")
@@ -78,7 +77,7 @@ public class PrintToPdfUtil {
 
     public static void main(String[] args) {
         long time1 = System.currentTimeMillis();
-        toPdf("f:/test/", "f:/pdf/a.pdf");
+        toPdf("f:/test/", "f:/pdf/a.pdf",200);
         long time2 = System.currentTimeMillis();
         int time = (int) ((time2 - time1) / 1000);
         System.out.println("执行了：" + time + "秒！");

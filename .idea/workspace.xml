@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e3c311f-56b9-4c7c-8ce0-6aee518eaae4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sql/sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/src/main/resources/templates/t.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/download/src/main/webapp/WEB-INF/jsp/a.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/download/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/download/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/target/download-1.0-SNAPSHOT.war.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/target/download-1.0-SNAPSHOT/WEB-INF/classes/Logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/target/download-1.0-SNAPSHOT/WEB-INF/classes/META-INF/resources/WEB-INF/jsp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/target/download-1.0-SNAPSHOT/WEB-INF/classes/META-INF/resources/WEB-INF/jsp/indexnew.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/download/target/download-1.0-SNAPSHOT/WEB-INF/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/src/main/java/com/owwang/yunzhang/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/download/src/main/java/com/owwang/yunzhang/controller/PageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/src/main/java/com/owwang/yunzhang/service/DownloadPicUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/download/src/main/java/com/owwang/yunzhang/service/DownloadPicUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/src/main/java/com/owwang/yunzhang/service/DownloadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/download/src/main/java/com/owwang/yunzhang/service/DownloadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/src/main/java/com/owwang/yunzhang/util/PrintToPdfUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/download/src/main/java/com/owwang/yunzhang/util/PrintToPdfUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/src/main/resources/META-INF/resources/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/download/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/src/main/resources/META-INF/resources/WEB-INF/jsp/indexnew.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/download/src/main/webapp/WEB-INF/jsp/indexnew.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/download/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/download/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/target/download-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/download/target/download-1.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/download/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/download/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/target/test-classes/image_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/download/target/test-classes/image_info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,29 +73,30 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Dockerfile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/download/src/main/webapp/WEB-INF/jsp" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\develop\01_workspace\yunzhang\download\src\main\java\com\owwang\yunzhang\service" />
-      <recent name="F:\develop\01_workspace\yunzhang\download\src\main\java\com\owwang\yunzhang\qiniuyun" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.owwang.yunzhang.controller" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\develop\01_workspace\yunzhang\download\src\main\resources\META-INF\resources\WEB-INF\jsp" />
       <recent name="F:\develop\01_workspace\yunzhang\download\src\main\webapp\WEB-INF\jsp" />
+      <recent name="F:\develop\01_workspace\yunzhang\download\src\main\resources\META-INF\resources\WEB-INF\jsp" />
       <recent name="F:\develop\01_workspace\yunzhang\download\src\main\webapp\WEB-INF" />
       <recent name="F:\develop\01_workspace\yunzhang\download\src\main" />
       <recent name="F:\develop\01_workspace\yunzhang\download\src\main\resources\webapp" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.owwang.yunzhang.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\develop\01_workspace\yunzhang\download\src\main\webapp\WEB-INF\jsp" />
+      <recent name="F:\develop\01_workspace\yunzhang\download\src\main\java\com\owwang\yunzhang\service" />
+      <recent name="F:\develop\01_workspace\yunzhang\download\src\main\java\com\owwang\yunzhang\qiniuyun" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DownloadApplication">
+  <component name="RunManager" selected="Docker.yunzhang">
     <configuration name="DownloadPicUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.owwang.yunzhang.service.DownloadPicUtil" />
       <module name="download" />
@@ -118,32 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FaultDownLoadService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.owwang.yunzhang.service.FaultDownLoadService" />
-      <module name="download" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.owwang.yunzhang.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.owwang.yunzhang.util.LogTest" />
-      <module name="download" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.owwang.yunzhang.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DownloadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="download" />
       <extension name="coverage">
@@ -156,6 +135,18 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="command" value="" />
+          <option name="containerName" value="yunzhang" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="isamuelwang/download:latest" />
+          <option name="commandLineOptions" value="-p 8085:8085" />
+        </settings>
+      </deployment>
+      <method v="2" />
     </configuration>
     <configuration name="Unnamed" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
@@ -179,21 +170,33 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="yunzhang" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="isamuelwang/download:latest" />
+          <option name="commandLineOptions" value="-p 8086:8086" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.DownloadPicUtil" />
       <item itemvalue="Application.DownloadService" />
-      <item itemvalue="Application.FaultDownLoadService" />
-      <item itemvalue="Application.LogTest" />
       <item itemvalue="Docker.Unnamed" />
       <item itemvalue="Spring Boot.DownloadApplication" />
+      <item itemvalue="Docker.Docker Image" />
+      <item itemvalue="Docker.yunzhang" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.DownloadApplication" />
-        <item itemvalue="Application.DownloadService" />
-        <item itemvalue="Application.DownloadPicUtil" />
-        <item itemvalue="Application.LogTest" />
-        <item itemvalue="Application.FaultDownLoadService" />
+        <item itemvalue="Docker.yunzhang" />
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.yunzhang" />
+        <item itemvalue="Docker.yunzhang" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +241,7 @@
       <workItem from="1581520546462" duration="1777000" />
       <workItem from="1581522914869" duration="23366000" />
       <workItem from="1581606260694" duration="16911000" />
-      <workItem from="1581625568526" duration="16403000" />
+      <workItem from="1581625568526" duration="28228000" />
     </task>
     <servers />
   </component>
@@ -249,10 +252,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="623" y="88" key="#Docker_Image" timestamp="1581654353026">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="88" key="#Docker_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1581654353026" />
+    <state x="452" y="95" key="#Environment_variables" timestamp="1581652057488">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="95" key="#Environment_variables/0.0.1920.1040@0.0.1920.1040" timestamp="1581652057488" />
+    <state x="452" y="95" key="#Port_bindings" timestamp="1581652725452">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="95" key="#Port_bindings/0.0.1920.1040@0.0.1920.1040" timestamp="1581652725452" />
     <state x="452" y="95" key="#Project_Structure" timestamp="1581643442725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="452" y="95" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1581643442725" />
+    <state x="452" y="95" key="#Volume_binding" timestamp="1581646177093">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="95" key="#Volume_binding/0.0.1920.1040@0.0.1920.1040" timestamp="1581646177093" />
     <state x="627" y="218" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1581528025767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -261,10 +280,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="168" width="1111" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581626918636" />
-    <state x="661" y="305" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581616470364">
+    <state x="661" y="305" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581649389791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="305" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581616470364" />
+    <state x="661" y="305" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581649389791" />
     <state x="721" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1581545177476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -285,42 +304,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="659" y="188" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581531722724" />
-    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1581626833979">
+    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1581647314885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581626833979" />
-    <state width="1867" height="255" key="GridCell.Tab.0.bottom" timestamp="1581643791966">
+    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581647314885" />
+    <state width="1867" height="255" key="GridCell.Tab.0.bottom" timestamp="1581655873019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581643791966" />
-    <state width="1867" height="255" key="GridCell.Tab.0.center" timestamp="1581643791966">
+    <state width="1867" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581655873019" />
+    <state width="1867" height="255" key="GridCell.Tab.0.center" timestamp="1581655873019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="255" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581643791966" />
-    <state width="1867" height="255" key="GridCell.Tab.0.left" timestamp="1581643791965">
+    <state width="1867" height="255" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581655873019" />
+    <state width="1867" height="255" key="GridCell.Tab.0.left" timestamp="1581655873019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="255" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581643791965" />
-    <state width="1867" height="255" key="GridCell.Tab.0.right" timestamp="1581643791966">
+    <state width="1867" height="255" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581655873019" />
+    <state width="1867" height="255" key="GridCell.Tab.0.right" timestamp="1581655873019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="255" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581643791966" />
-    <state width="1867" height="255" key="GridCell.Tab.1.bottom" timestamp="1581643622121">
+    <state width="1867" height="255" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581655873019" />
+    <state width="1867" height="255" key="GridCell.Tab.1.bottom" timestamp="1581655873020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581643622121" />
-    <state width="1867" height="255" key="GridCell.Tab.1.center" timestamp="1581643622121">
+    <state width="1867" height="255" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581655873020" />
+    <state width="1867" height="255" key="GridCell.Tab.1.center" timestamp="1581655873019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="255" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581643622121" />
-    <state width="1867" height="255" key="GridCell.Tab.1.left" timestamp="1581643622121">
+    <state width="1867" height="255" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581655873019" />
+    <state width="1867" height="255" key="GridCell.Tab.1.left" timestamp="1581655873019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="255" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581643622121" />
-    <state width="1867" height="255" key="GridCell.Tab.1.right" timestamp="1581643622121">
+    <state width="1867" height="255" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581655873019" />
+    <state width="1867" height="255" key="GridCell.Tab.1.right" timestamp="1581655873019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="255" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581643622121" />
+    <state width="1867" height="255" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581655873019" />
+    <state width="1867" height="333" key="GridCell.Tab.2.bottom" timestamp="1581654094472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="333" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581654094472" />
+    <state width="1867" height="333" key="GridCell.Tab.2.center" timestamp="1581654094471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="333" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581654094471" />
+    <state width="1867" height="333" key="GridCell.Tab.2.left" timestamp="1581654094471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="333" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581654094471" />
+    <state width="1867" height="333" key="GridCell.Tab.2.right" timestamp="1581654094472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="333" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581654094472" />
     <state x="312" y="0" key="SettingsEditor" timestamp="1581635508562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

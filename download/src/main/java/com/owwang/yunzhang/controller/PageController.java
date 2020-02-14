@@ -14,8 +14,8 @@ public class PageController {
 
     @RequestMapping(value={"/index","/"})
     public String index() {
-        //System.out.println("11111111111");
-        return "index";
+        System.out.println("11111111111");
+        return "t";
     }
 
 

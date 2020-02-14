@@ -33,7 +33,7 @@ public class DownloadService {
         checkPath(pdfPath, picPath);
         overDownload(pageTotal, imgUrl, picPath, fileName);
         //生成pdf
-        PrintToPdfUtil.toPdf(picPath, pdfPath + fileName + ".pdf");
+        PrintToPdfUtil.toPdf(picPath, pdfPath + fileName + ".pdf",pageTotal);
         //上传到七牛云
         QiNiuResult result = QiNiuUtil.upload("picbed8", new File(pdfPath + fileName + ".pdf"));
         //删除临时文件
@@ -65,13 +65,13 @@ public class DownloadService {
             log.info("正在下载地址书本每页图片：" + imgUrl + i + ".jpg");
             if (i < 10) {
                 //调整页码（保持三位数字）
-                String pageNo = "00" + i;
+                int pageNo = i + 100;
                 DownloadPicUtil.downloadPicture(imgUrl + i + ".jpg", picPath + pageNo + ".jpg");
             } else if (i >= 10 && i < 100) {
-                String pageNo = "0" + i;
+                int pageNo = i + 100;
                 DownloadPicUtil.downloadPicture(imgUrl + i + ".jpg", picPath + pageNo + ".jpg");
             } else {
-                String pageNo = i + "";
+                int pageNo = i + 100;
                 DownloadPicUtil.downloadPicture(imgUrl + i + ".jpg", picPath + pageNo + ".jpg");
             }
         }

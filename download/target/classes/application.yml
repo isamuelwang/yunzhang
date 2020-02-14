@@ -1,5 +1,5 @@
 server:
-  port: 8085
+  port: 8086
 spring:
   application:
     name: yunzhang-download #指定服务名
@@ -7,3 +7,17 @@ spring:
     view:
       prefix: /WEB-INF/jsp/
       suffix: .jsp
+  #thymelea模板配置
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+    content-type: text/html
+    cache: false
+  resources:
+    chain:
+      strategy:
+        content:
+          enabled: true
+          paths: /**

@@ -42,7 +42,7 @@ public class DownloadPicUtil {
                 downloadPicture(url, path);
             }
         }
-        PrintToPdfUtil.toPdf("D:/桌面/download/pdf/pic/", "D:/桌面/download/pdf/a.pdf");
+        PrintToPdfUtil.toPdf("D:/桌面/download/pdf/pic/", "D:/桌面/download/pdf/a.pdf",200);
     }
 
     //链接url下载图片
