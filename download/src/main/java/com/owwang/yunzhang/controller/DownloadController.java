@@ -21,8 +21,21 @@ public class DownloadController {
     @PostMapping(value = "/download")
     @ResponseBody
     public QiNiuResult download(@RequestBody PdfFile pdfFile){
-        String filename = downloadService.download(pdfFile);
-        String fileUrl = "http://cos.owwang.com/"+filename;
-        return new QiNiuResult(true,fileUrl);
+        //查询数据库，如果数据库存在数据，则返回数据库中信息即可
+
+        if(pdfFile.getBookUrl().contains("https://book.yunzhan365.com/")){
+            String filename = downloadService.download(pdfFile);
+            String fileUrl = "http://cos.owwang.com/"+filename;
+            return new QiNiuResult(true,fileUrl);
+        }else if(pdfFile.getBookUrl().contains("http://npng1.5read.com/")){
+               return null;
+        } else {
+            return new QiNiuResult(false,"请输入正确的链接地址");
+        }
+    }
+
+    @GetMapping("/test")
+    public void testSql(){
+        downloadService.testSql();
     }
 }

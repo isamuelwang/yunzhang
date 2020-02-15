@@ -3,6 +3,16 @@ server:
 spring:
   application:
     name: yunzhang-download #指定服务名
+    datasource:
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql://122.51.105.58:3306/yunzhang?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+      username: root
+      password: '@asdend123'
+    jpa:
+      database: MySQL
+      show-sql: true
+    redis:
+      host: 122.51.105.58
   mvc:
     view:
       prefix: /WEB-INF/jsp/
@@ -21,3 +31,8 @@ spring:
         content:
           enabled: true
           paths: /**
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration,org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration
+mybatis:
+  mapper-locations: com/owwang/yunzhang/dao/*.xml
+  type-aliases-package: com.owwang.yunzhang.pojo

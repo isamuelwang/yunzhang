@@ -63,7 +63,7 @@
     <p style="width: 100%;height: 45px;display: block;line-height: 45px;text-align: center;">欧文电玩版权所有</p>
 </div>
 
-<script th:inline="javascript" type="text/javascript">
+<script>
     layui.use('element', function () {
         var element = layui.element();
     });
@@ -72,9 +72,9 @@
         var form = layui.form;
         //监听提交
         form.on('submit(formDemo)', function (data) {
-            //var basepath = "http://122.51.105.58:8086/";
-            var basepath = "http://localhost:8086/"
-            var url = basepath + "download";
+            var baseUrl = window.location.host;
+            //var baseUrl = "yzw.owwang.com";
+            var url = "http://"+baseUrl + "/download";
             //alert(url);
             var data = JSON.stringify(data.field);
             //alert(data);

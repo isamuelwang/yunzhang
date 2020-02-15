@@ -44,7 +44,7 @@
                 <driverClassName>com.mysql.jdbc.Driver</driverClassName>
                 <url>jdbc:mysql://122.51.105.58:3306/yunzhang_log</url>
                 <username>root</username>
-                <password>123456</password>
+                <password>@asdend123</password>
             </dataSource>
         </connectionSource>
     </appender>

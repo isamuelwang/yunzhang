@@ -38,8 +38,11 @@ public class PrintToPdfUtil {
             BufferedImage img = null;
             // 实例化图片
             Image image = null;
+            // 获取图片文件夹对象
+            File file = new File(imageFolderPath);
+            File[] files = file.listFiles();
             // 循环获取图片文件夹内的图片
-            for (int i=101;i<=pageTotal+100;i++) {
+            for (int i=1;i<=files.length;i++) {
                 System.out.println(imageFolderPath+i+".jpg");
                 File file1 = new File(imageFolderPath+i+".jpg");
                 if (file1.getName().endsWith(".png")
